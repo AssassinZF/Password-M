@@ -8,12 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		01D8FBA9200D8E3F00B04E75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D8FBA8200D8E3F00B04E75 /* AppDelegate.swift */; };
-		01D8FBAB200D8E3F00B04E75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D8FBAA200D8E3F00B04E75 /* ViewController.swift */; };
-		01D8FBAE200D8E3F00B04E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01D8FBAC200D8E3F00B04E75 /* Main.storyboard */; };
 		01D8FBB0200D8E3F00B04E75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01D8FBAF200D8E3F00B04E75 /* Assets.xcassets */; };
 		01D8FBB3200D8E3F00B04E75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01D8FBB1200D8E3F00B04E75 /* LaunchScreen.storyboard */; };
 		01D8FBBE200D8E3F00B04E75 /* MPasswordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D8FBBD200D8E3F00B04E75 /* MPasswordTests.swift */; };
 		01D8FBC9200D8E3F00B04E75 /* MPasswordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D8FBC8200D8E3F00B04E75 /* MPasswordUITests.swift */; };
+		01D8FBE7200DA00900B04E75 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D8FBE5200DA00900B04E75 /* LoginViewController.xib */; };
+		01D8FBE8200DA00900B04E75 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D8FBE6200DA00900B04E75 /* LoginViewController.swift */; };
+		01D8FBEC200DA02C00B04E75 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D8FBEA200DA02C00B04E75 /* RegisterViewController.swift */; };
+		01D8FBED200DA02C00B04E75 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D8FBEB200DA02C00B04E75 /* RegisterViewController.xib */; };
+		01D8FBF2200DD03200B04E75 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D8FBF1200DD03200B04E75 /* BaseViewController.swift */; };
+		01D8FBF5200DD1B600B04E75 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D8FBF3200DD1B600B04E75 /* MainViewController.swift */; };
+		01D8FBF6200DD1B600B04E75 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D8FBF4200DD1B600B04E75 /* MainViewController.xib */; };
+		01D8FBF8200DD59000B04E75 /* PasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D8FBF7200DD59000B04E75 /* PasswordModel.swift */; };
+		01D8FBFB200DD62C00B04E75 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D8FBF9200DD62C00B04E75 /* MainTableViewCell.swift */; };
+		01D8FBFC200DD62C00B04E75 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D8FBFA200DD62C00B04E75 /* MainTableViewCell.xib */; };
+		01D8FBFE200DDA5B00B04E75 /* AppApperaStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D8FBFD200DDA5B00B04E75 /* AppApperaStyle.swift */; };
+		01D8FC01200DE3E500B04E75 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D8FBFF200DE3E500B04E75 /* InfoViewController.swift */; };
+		01D8FC02200DE3E500B04E75 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D8FC00200DE3E500B04E75 /* InfoViewController.xib */; };
 		240898B4AC070EFF555C27A9 /* Pods_MPasswordTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E2B540981FC7C3CE06199FF /* Pods_MPasswordTests.framework */; };
 		7BA2A85CBAEE28E6F50DC53C /* Pods_MPassword.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B86E2FF5E635DEE3DE2E89C /* Pods_MPassword.framework */; };
 		DD2F44CF6903605D52456AB1 /* Pods_MPasswordUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB5FBA8385C3CB54E786F19 /* Pods_MPasswordUITests.framework */; };
@@ -39,8 +50,6 @@
 /* Begin PBXFileReference section */
 		01D8FBA5200D8E3F00B04E75 /* MPassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01D8FBA8200D8E3F00B04E75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		01D8FBAA200D8E3F00B04E75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		01D8FBAD200D8E3F00B04E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01D8FBAF200D8E3F00B04E75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01D8FBB2200D8E3F00B04E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01D8FBB4200D8E3F00B04E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +60,19 @@
 		01D8FBC8200D8E3F00B04E75 /* MPasswordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPasswordUITests.swift; sourceTree = "<group>"; };
 		01D8FBCA200D8E3F00B04E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01D8FBD6200D91B300B04E75 /* MPassword-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MPassword-Bridging-Header.h"; sourceTree = "<group>"; };
+		01D8FBE5200DA00900B04E75 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		01D8FBE6200DA00900B04E75 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		01D8FBEA200DA02C00B04E75 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		01D8FBEB200DA02C00B04E75 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		01D8FBF1200DD03200B04E75 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		01D8FBF3200DD1B600B04E75 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		01D8FBF4200DD1B600B04E75 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		01D8FBF7200DD59000B04E75 /* PasswordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordModel.swift; sourceTree = "<group>"; };
+		01D8FBF9200DD62C00B04E75 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		01D8FBFA200DD62C00B04E75 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		01D8FBFD200DDA5B00B04E75 /* AppApperaStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppApperaStyle.swift; sourceTree = "<group>"; };
+		01D8FBFF200DE3E500B04E75 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		01D8FC00200DE3E500B04E75 /* InfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
 		2B86E2FF5E635DEE3DE2E89C /* Pods_MPassword.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPassword.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53DDA4ECA2B3F934DE80627D /* Pods-MPasswordTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPasswordTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MPasswordTests/Pods-MPasswordTests.release.xcconfig"; sourceTree = "<group>"; };
 		5E2B540981FC7C3CE06199FF /* Pods_MPasswordTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPasswordTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,9 +137,8 @@
 		01D8FBA7200D8E3F00B04E75 /* MPassword */ = {
 			isa = PBXGroup;
 			children = (
+				01D8FBDA200D9E6A00B04E75 /* Modules */,
 				01D8FBA8200D8E3F00B04E75 /* AppDelegate.swift */,
-				01D8FBAA200D8E3F00B04E75 /* ViewController.swift */,
-				01D8FBAC200D8E3F00B04E75 /* Main.storyboard */,
 				01D8FBAF200D8E3F00B04E75 /* Assets.xcassets */,
 				01D8FBB1200D8E3F00B04E75 /* LaunchScreen.storyboard */,
 				01D8FBB4200D8E3F00B04E75 /* Info.plist */,
@@ -142,6 +163,50 @@
 				01D8FBCA200D8E3F00B04E75 /* Info.plist */,
 			);
 			path = MPasswordUITests;
+			sourceTree = "<group>";
+		};
+		01D8FBDA200D9E6A00B04E75 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				01D8FBEE200DA27D00B04E75 /* Expand */,
+				01D8FBE9200DA00E00B04E75 /* Password */,
+				01D8FBE4200D9FE900B04E75 /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		01D8FBE4200D9FE900B04E75 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				01D8FBE6200DA00900B04E75 /* LoginViewController.swift */,
+				01D8FBE5200DA00900B04E75 /* LoginViewController.xib */,
+				01D8FBEA200DA02C00B04E75 /* RegisterViewController.swift */,
+				01D8FBEB200DA02C00B04E75 /* RegisterViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		01D8FBE9200DA00E00B04E75 /* Password */ = {
+			isa = PBXGroup;
+			children = (
+				01D8FBF3200DD1B600B04E75 /* MainViewController.swift */,
+				01D8FBF4200DD1B600B04E75 /* MainViewController.xib */,
+				01D8FBF7200DD59000B04E75 /* PasswordModel.swift */,
+				01D8FBF9200DD62C00B04E75 /* MainTableViewCell.swift */,
+				01D8FBFA200DD62C00B04E75 /* MainTableViewCell.xib */,
+				01D8FBFF200DE3E500B04E75 /* InfoViewController.swift */,
+				01D8FC00200DE3E500B04E75 /* InfoViewController.xib */,
+			);
+			path = Password;
+			sourceTree = "<group>";
+		};
+		01D8FBEE200DA27D00B04E75 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				01D8FBF1200DD03200B04E75 /* BaseViewController.swift */,
+				01D8FBFD200DDA5B00B04E75 /* AppApperaStyle.swift */,
+			);
+			path = Expand;
 			sourceTree = "<group>";
 		};
 		A5136CD01DB132D378E9D555 /* Frameworks */ = {
@@ -284,9 +349,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01D8FBFC200DD62C00B04E75 /* MainTableViewCell.xib in Resources */,
+				01D8FBE7200DA00900B04E75 /* LoginViewController.xib in Resources */,
+				01D8FBED200DA02C00B04E75 /* RegisterViewController.xib in Resources */,
+				01D8FBF6200DD1B600B04E75 /* MainViewController.xib in Resources */,
 				01D8FBB3200D8E3F00B04E75 /* LaunchScreen.storyboard in Resources */,
+				01D8FC02200DE3E500B04E75 /* InfoViewController.xib in Resources */,
 				01D8FBB0200D8E3F00B04E75 /* Assets.xcassets in Resources */,
-				01D8FBAE200D8E3F00B04E75 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,8 +532,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01D8FBAB200D8E3F00B04E75 /* ViewController.swift in Sources */,
+				01D8FBF8200DD59000B04E75 /* PasswordModel.swift in Sources */,
+				01D8FBEC200DA02C00B04E75 /* RegisterViewController.swift in Sources */,
+				01D8FBFE200DDA5B00B04E75 /* AppApperaStyle.swift in Sources */,
+				01D8FBF2200DD03200B04E75 /* BaseViewController.swift in Sources */,
+				01D8FC01200DE3E500B04E75 /* InfoViewController.swift in Sources */,
+				01D8FBFB200DD62C00B04E75 /* MainTableViewCell.swift in Sources */,
+				01D8FBE8200DA00900B04E75 /* LoginViewController.swift in Sources */,
 				01D8FBA9200D8E3F00B04E75 /* AppDelegate.swift in Sources */,
+				01D8FBF5200DD1B600B04E75 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,14 +576,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		01D8FBAC200D8E3F00B04E75 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				01D8FBAD200D8E3F00B04E75 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		01D8FBB1200D8E3F00B04E75 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
