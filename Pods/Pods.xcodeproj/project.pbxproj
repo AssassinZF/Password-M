@@ -1,0 +1,1193 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1455072F334A58BB88861C0790FF3B2D /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698081EAC64FE694FDC09305AFF90A43 /* ConstraintView+Extensions.swift */; };
+		1738FB18126162C0DC6D922570E52567 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44642F94920ECA727C47E0EACE394C /* LayoutConstraint.swift */; };
+		1A27830B0AA38210E2DA367227F32B9E /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1599E58E5FE100136E79CA8BE706DEE /* SwiftyJSON-dummy.m */; };
+		1A2ADBF38EB4ACF6DC0C1ADC62543125 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F053218A68696C0872D127176B4ED9B /* ConstraintMakerRelatable.swift */; };
+		1BED1F5DCB82E30923A2BBE3A6DC3177 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B1B2125E1F76E0C49180D5BEF1CF83 /* ConstraintLayoutGuide+Extensions.swift */; };
+		1F25548C6D461C5A3C6E5F002A28870A /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D389CF1DB1C0C6E10581852BC7CC5DF8 /* ConstraintMakerPriortizable.swift */; };
+		1F68B889A1192298098383B9AE993CD5 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E3B2F120908FF689E0DD70F40C3F40 /* ConstraintMakerFinalizable.swift */; };
+		1FF82D89BBF4AB6C514B97A80CA34BC0 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B548F63B9D808586F845512AEB9701E /* ConstraintInsets.swift */; };
+		2054B1D4F634E0C119AF79BF9F22DAEC /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8DC04E2424BDF277402D27DFBDA2E1 /* ConstraintView.swift */; };
+		223235C8CD481AD53A43F8971F5E8E96 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBBE5D926334CA0879AC6F476DB0F5B /* ConstraintMakerEditable.swift */; };
+		282D74FB2502038068591EDD0C7C0DC7 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A58A45A22F50EB12852EBC498470675 /* ConstraintInsetTarget.swift */; };
+		29FBAAA0758D7C5C6386B909AF6DE05F /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBBB4518BCE939D9891384CA4E983DF /* ConstraintMaker.swift */; };
+		2BE7F8189F0D1744E3B7E3C2A67582F2 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BC399469F9DF06E43202D2DF21A469 /* Debugging.swift */; };
+		2E8CCFF59CF5503AE920290E5AB53B4D /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FC1E0B7DE714FDD209CE4CE8B2B872 /* ConstraintLayoutSupport.swift */; };
+		2F15E775B9551ECDCE10B0528506E4AC /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D649A7221AA2B53CB4C367F3CA8B3F /* ConstraintItem.swift */; };
+		35D823A04DED6F7962591CCAC8BDB64F /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9361F44602DE82853B16BE542F975F /* ConstraintLayoutSupportDSL.swift */; };
+		37F46A199BB9EAE349970922CEB85736 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3888D65ED9271DCC186BAE3F2745E5DD /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588C54060EDDB73DF0549843D5179A32 /* ConstraintLayoutGuide.swift */; };
+		3F2C3E97E56B77C0C5CBC2FE6C6C10CF /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C40DDF31D5FB580101980DF1546929 /* ConstraintPriority.swift */; };
+		4512C3F4E8C9A29D00A1C75201F5EE92 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CD70505CCC2262D271335D02874E79 /* ConstraintConstantTarget.swift */; };
+		45EB542E6781C4EFA651F6DF9B941C9F /* Pods-MPasswordUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC52F0324CC3930D868AD581DD4ADE1A /* Pods-MPasswordUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4920466EE3346D0CB427470B54B039F9 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32AA5B82EE5F9516834A2E5729D0EDE /* Typealiases.swift */; };
+		51B3F3A738464FBFF4CDFFD5D842DE5A /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5D1A8F7DF3C0AF163ABCE63AC41D21 /* UILayoutSupport+Extensions.swift */; };
+		5BD529294F53591C782DF3FA4493C0DC /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768FEB611ED232E1C02E7BDBAB7FB9A7 /* ConstraintLayoutGuideDSL.swift */; };
+		5EF32E12CFF9FFE21D787135A196A841 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		69713780710827149E07D300FCCBC5D0 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755463D2EC2B51EF86283155662BD3B1 /* LayoutConstraintItem.swift */; };
+		6D883767D29686C7FA2662258B30E24D /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABBEF1A186F0AE2D80AC5BEB5C5D1A59 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D88B1728035C65684A8F7E4212FCF7F /* Pods-MPasswordTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB32806D95286B67A34F1D75768CC5C5 /* Pods-MPasswordTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7495A252E32FE61FE4E08234771F9AFD /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654735BCE1475C7584E90327EFF03C21 /* ConstraintViewDSL.swift */; };
+		7617B5183818C9D00AE17113A7FB3BA5 /* Pods-MPasswordUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15026714BA0DA54D96B26415A4EDC791 /* Pods-MPasswordUITests-dummy.m */; };
+		78E7870C868DBBE46BF03E34C0B18A5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		848D9122AEC49D070DA4CCCD59076A89 /* Pods-MPassword-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 145E444E763C63C9E106F64B679112B6 /* Pods-MPassword-dummy.m */; };
+		89047E9512DC7939C74FB56BE1EF1A26 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB591F7C8BB9CAD60E46E94BEA3F7272 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B4D488BC7D5CCD3A740676405356201 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7C75F7885206FC4A1E1EA5B276B6EA /* ConstraintOffsetTarget.swift */; };
+		8FD36DE9D92B0BD9C4EE9BF2FED928B7 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1366EBE8868D65D3CCECFC079F1D05F /* SwiftyJSON.swift */; };
+		9FA84D97468875D487ED670250DCD6CE /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E24CE727641B7BAFF115D6B07302C70 /* ConstraintConfig.swift */; };
+		9FF7CC6AA74865BE0A16FF300BC9DC9D /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE26594794E4938D0F249A11109F0B4 /* Constraint.swift */; };
+		A332BB0B438F70ADAA969C3AFC173B71 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C7F561F66329AE6208465893A5892D /* ConstraintAttributes.swift */; };
+		A4C386DD76FD65A241675EB17F1F60D1 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D1D60AF953616FF1D27B66CD3A6796 /* ConstraintRelation.swift */; };
+		B6E4F5DEE162A4FAE9704DE8ECA593D9 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A3C9559B3C43F2658E4967B4E54BFF /* ConstraintDSL.swift */; };
+		C35EB21247EE67C21B20AA5DC51DD8C7 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1A798A22FAF9599861BCC886EF61D3 /* ConstraintDescription.swift */; };
+		C527073F291979010F01712E27F68605 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E8083C3D785C788A0F2258DAE011F /* ConstraintMultiplierTarget.swift */; };
+		C64332108C41E4ADD6B95EA60A6424BA /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B71C86E989EFD5DBDA05EE5D40F1AF /* SnapKit-dummy.m */; };
+		C9B1A209FA448AFE6210121601BC8EB3 /* Pods-MPasswordTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 791D35000663E40655EDC0466B0514CC /* Pods-MPasswordTests-dummy.m */; };
+		D152F545937A538B770A923230EA0033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D779E9417B8591AA18477C4A7E4ACD3D /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D53C4A0625142D46F9607E8C5FD6E /* ConstraintRelatableTarget.swift */; };
+		DF4A71B29466C897B3AF8CEB427FB1C7 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693B150940474C3C901C8FC9079E662B /* ConstraintMakerExtendable.swift */; };
+		E3B5922A8CC9E1667AE3E022ADCE857F /* Pods-MPassword-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71AC22553CC21458C5B840F98FA1CD56 /* Pods-MPassword-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F07C0AA06786952443795ED795E6D5B2 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22997C9C086E8120523D1AFB3B94FE91 /* ConstraintPriorityTarget.swift */; };
+		F08EEEADA16A291A130D23DBF7494E3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89719DED7B0C66A4DD129A738B1E46FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47CB6D07A3A4053D342C6809B674C4BB;
+			remoteInfo = SnapKit;
+		};
+		8C63CBA6F2200B5759EA64649A174FE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5FAE13383E422C33F15B82F2F6250CB;
+			remoteInfo = SwiftyJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0047A6CE7635DBAF44EFA08A005FC66C /* Pods-MPasswordUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MPasswordUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		07862B27E70DDB748BB407A7F4C5B79D /* Pods-MPasswordUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPasswordUITests-resources.sh"; sourceTree = "<group>"; };
+		0D9A0FE0DEA1AAB23D5B8E7BD4FDD481 /* Pods-MPasswordTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPasswordTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0E24CE727641B7BAFF115D6B07302C70 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
+		0E76A4E725E8EE22A328490FDA9DB1A9 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		103865A45444C6C022E898F853D93BEF /* Pods-MPasswordTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPasswordTests-frameworks.sh"; sourceTree = "<group>"; };
+		145E444E763C63C9E106F64B679112B6 /* Pods-MPassword-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MPassword-dummy.m"; sourceTree = "<group>"; };
+		14C40DDF31D5FB580101980DF1546929 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
+		15026714BA0DA54D96B26415A4EDC791 /* Pods-MPasswordUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MPasswordUITests-dummy.m"; sourceTree = "<group>"; };
+		1B548F63B9D808586F845512AEB9701E /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		1FF09F06FA40BEDE8738598B5AF6786F /* Pods-MPasswordUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPasswordUITests.release.xcconfig"; sourceTree = "<group>"; };
+		22997C9C086E8120523D1AFB3B94FE91 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		24BC399469F9DF06E43202D2DF21A469 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		259B3390FD43F8066678A8D7B8440D77 /* Pods-MPassword-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPassword-frameworks.sh"; sourceTree = "<group>"; };
+		2FE26594794E4938D0F249A11109F0B4 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		306F8EFA674B5FF263FCCD452AAC7080 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C44701375AE3495C7F4BB2A6BC6846 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32CD70505CCC2262D271335D02874E79 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		332BE9D97444A915F07F64EFA0B600A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33E8ADB44CAD38719BFE210A5D82D5D9 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		347AE25450FE81BE3F8CCEC6C01A1925 /* Pods-MPasswordTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MPasswordTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		36261ECEDFD57DA6E31324535BA2112E /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		45F8F28472CA6C67461D1E6A4739D254 /* Pods-MPassword.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MPassword.modulemap"; sourceTree = "<group>"; };
+		4A58A45A22F50EB12852EBC498470675 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		55C0BB41042F87B4202B6F7A20CB1F1D /* Pods-MPasswordUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPasswordUITests-frameworks.sh"; sourceTree = "<group>"; };
+		588C54060EDDB73DF0549843D5179A32 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		5CE965E29B109E9863DC76185637F50A /* Pods_MPasswordUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MPasswordUITests.framework; path = "Pods-MPasswordUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBBE5D926334CA0879AC6F476DB0F5B /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		60BCC6855B9315169216139E9E0BC49C /* Pods-MPasswordTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MPasswordTests.modulemap"; sourceTree = "<group>"; };
+		64FC1E0B7DE714FDD209CE4CE8B2B872 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		654735BCE1475C7584E90327EFF03C21 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68B1B2125E1F76E0C49180D5BEF1CF83 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		693B150940474C3C901C8FC9079E662B /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		698081EAC64FE694FDC09305AFF90A43 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		6AB504885DAE0C24920FAAD2136D06C2 /* Pods-MPasswordUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPasswordUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D0923A400409C85718404C5A0E7AFC5 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		70D649A7221AA2B53CB4C367F3CA8B3F /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		71AC22553CC21458C5B840F98FA1CD56 /* Pods-MPassword-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MPassword-umbrella.h"; sourceTree = "<group>"; };
+		755463D2EC2B51EF86283155662BD3B1 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		768FEB611ED232E1C02E7BDBAB7FB9A7 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		791D35000663E40655EDC0466B0514CC /* Pods-MPasswordTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MPasswordTests-dummy.m"; sourceTree = "<group>"; };
+		79AD0113EA729BA6F7103345903A1AF3 /* Pods-MPasswordUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MPasswordUITests.modulemap"; sourceTree = "<group>"; };
+		7A73BEBF79731B37CFA99ACB184EA461 /* Pods_MPassword.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MPassword.framework; path = "Pods-MPassword.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86CADFF18A33561090F3DFB23F1E61EE /* Pods-MPassword.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPassword.debug.xcconfig"; sourceTree = "<group>"; };
+		8BBBB4518BCE939D9891384CA4E983DF /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		8EEBD27AC6BB5CB488AC509AC1E8A425 /* Pods-MPasswordUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPasswordUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		957E8083C3D785C788A0F2258DAE011F /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		97B71C86E989EFD5DBDA05EE5D40F1AF /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		98E4AF22E3B690E5F98F6912FDD78473 /* Pods-MPasswordTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPasswordTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A44642F94920ECA727C47E0EACE394C /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		9F053218A68696C0872D127176B4ED9B /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		A23858DBE4D299C74B3FB853B3F533AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9CD021A59F5C4F8CAE706D219F3155 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBEF1A186F0AE2D80AC5BEB5C5D1A59 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		B1599E58E5FE100136E79CA8BE706DEE /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		B247300931C6BFF21D0FAD405E85CF1B /* Pods-MPassword-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPassword-acknowledgements.plist"; sourceTree = "<group>"; };
+		B44C66798B06EB6BB2C085196D488D5F /* Pods-MPassword-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPassword-resources.sh"; sourceTree = "<group>"; };
+		B4A3C9559B3C43F2658E4967B4E54BFF /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		BA5D1A8F7DF3C0AF163ABCE63AC41D21 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		C071308A794E29DEFBB9811106347483 /* Pods-MPasswordTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPasswordTests-resources.sh"; sourceTree = "<group>"; };
+		C5C7F561F66329AE6208465893A5892D /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		CA1A798A22FAF9599861BCC886EF61D3 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		CBB52F75422910D3C54DD05E169B4295 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		CC52F0324CC3930D868AD581DD4ADE1A /* Pods-MPasswordUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MPasswordUITests-umbrella.h"; sourceTree = "<group>"; };
+		CFBF0DE0FE4C4A5A3FB5546FE0D505A0 /* Pods-MPassword.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPassword.release.xcconfig"; sourceTree = "<group>"; };
+		D389CF1DB1C0C6E10581852BC7CC5DF8 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		D47CBF7CBC227B2C1CBDDEA1D06E404D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4E3B2F120908FF689E0DD70F40C3F40 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		D73D53C4A0625142D46F9607E8C5FD6E /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		DC9361F44602DE82853B16BE542F975F /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		DF1CC2B80B235AC1F8425F6A91B5099C /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		E6330E5CADC302F8A4912CCB55CAB90D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA44CABBCD7B39435A072B39E3077318 /* Pods-MPassword-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MPassword-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EA8DC04E2424BDF277402D27DFBDA2E1 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		F0D1D60AF953616FF1D27B66CD3A6796 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		F1366EBE8868D65D3CCECFC079F1D05F /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		F32AA5B82EE5F9516834A2E5729D0EDE /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
+		F386CEE9169FD9F0BAED3CE7ECE68A2C /* Pods_MPasswordTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MPasswordTests.framework; path = "Pods-MPasswordTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6A01C568BDB0BEA1D5F7C91A9F426F /* Pods-MPasswordTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPasswordTests.release.xcconfig"; sourceTree = "<group>"; };
+		FB32806D95286B67A34F1D75768CC5C5 /* Pods-MPasswordTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MPasswordTests-umbrella.h"; sourceTree = "<group>"; };
+		FB591F7C8BB9CAD60E46E94BEA3F7272 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		FE7C75F7885206FC4A1E1EA5B276B6EA /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		FEE56F79D5A39648CD2963E185E8AF36 /* BmobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BmobSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F9C39CFCBD9BC7153FBCDF9112906F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E7870C868DBBE46BF03E34C0B18A5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76C0F0C95452020904F80C4F5C1E96D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D152F545937A538B770A923230EA0033 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83507986D0A47221617783F4303A2FB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EF32E12CFF9FFE21D787135A196A841 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEBA1794507274CF17774B0C4BC1C5DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08EEEADA16A291A130D23DBF7494E3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E10010A4E5694B7D69B41C30CF3089FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F46A199BB9EAE349970922CEB85736 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		038EC7CA5A012CFC59470B69B65806E4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				51BF82D136A2D0F3AA01E6E15B2B5789 /* Pods-MPassword */,
+				8647601DD16D8576906B41325C999B02 /* Pods-MPasswordTests */,
+				D0EA42048D4784096283374DBB4DE598 /* Pods-MPasswordUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		28960A6EB1CE1BB6B85C0C9ECCE557BD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A23858DBE4D299C74B3FB853B3F533AC /* Info.plist */,
+				0E76A4E725E8EE22A328490FDA9DB1A9 /* SwiftyJSON.modulemap */,
+				CBB52F75422910D3C54DD05E169B4295 /* SwiftyJSON.xcconfig */,
+				B1599E58E5FE100136E79CA8BE706DEE /* SwiftyJSON-dummy.m */,
+				33E8ADB44CAD38719BFE210A5D82D5D9 /* SwiftyJSON-prefix.pch */,
+				FB591F7C8BB9CAD60E46E94BEA3F7272 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		3347A7FB67EC0A58A19253503F0EE3B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A73BEBF79731B37CFA99ACB184EA461 /* Pods_MPassword.framework */,
+				F386CEE9169FD9F0BAED3CE7ECE68A2C /* Pods_MPasswordTests.framework */,
+				5CE965E29B109E9863DC76185637F50A /* Pods_MPasswordUITests.framework */,
+				306F8EFA674B5FF263FCCD452AAC7080 /* SnapKit.framework */,
+				AA9CD021A59F5C4F8CAE706D219F3155 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41D1D5DAB4FA31146B12FBC9AA13854E /* BmobSDK */ = {
+			isa = PBXGroup;
+			children = (
+				FEA23EB6EF6949162C065E388C5D2D46 /* Frameworks */,
+			);
+			name = BmobSDK;
+			path = BmobSDK;
+			sourceTree = "<group>";
+		};
+		51BF82D136A2D0F3AA01E6E15B2B5789 /* Pods-MPassword */ = {
+			isa = PBXGroup;
+			children = (
+				30C44701375AE3495C7F4BB2A6BC6846 /* Info.plist */,
+				45F8F28472CA6C67461D1E6A4739D254 /* Pods-MPassword.modulemap */,
+				EA44CABBCD7B39435A072B39E3077318 /* Pods-MPassword-acknowledgements.markdown */,
+				B247300931C6BFF21D0FAD405E85CF1B /* Pods-MPassword-acknowledgements.plist */,
+				145E444E763C63C9E106F64B679112B6 /* Pods-MPassword-dummy.m */,
+				259B3390FD43F8066678A8D7B8440D77 /* Pods-MPassword-frameworks.sh */,
+				B44C66798B06EB6BB2C085196D488D5F /* Pods-MPassword-resources.sh */,
+				71AC22553CC21458C5B840F98FA1CD56 /* Pods-MPassword-umbrella.h */,
+				86CADFF18A33561090F3DFB23F1E61EE /* Pods-MPassword.debug.xcconfig */,
+				CFBF0DE0FE4C4A5A3FB5546FE0D505A0 /* Pods-MPassword.release.xcconfig */,
+			);
+			name = "Pods-MPassword";
+			path = "Target Support Files/Pods-MPassword";
+			sourceTree = "<group>";
+		};
+		59AE333BC8C811FB371816E56411B886 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				F1366EBE8868D65D3CCECFC079F1D05F /* SwiftyJSON.swift */,
+				28960A6EB1CE1BB6B85C0C9ECCE557BD /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				AB68F661F2B66B53E6DC14FB1472D561 /* Pods */,
+				3347A7FB67EC0A58A19253503F0EE3B4 /* Products */,
+				038EC7CA5A012CFC59470B69B65806E4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8647601DD16D8576906B41325C999B02 /* Pods-MPasswordTests */ = {
+			isa = PBXGroup;
+			children = (
+				332BE9D97444A915F07F64EFA0B600A8 /* Info.plist */,
+				60BCC6855B9315169216139E9E0BC49C /* Pods-MPasswordTests.modulemap */,
+				347AE25450FE81BE3F8CCEC6C01A1925 /* Pods-MPasswordTests-acknowledgements.markdown */,
+				0D9A0FE0DEA1AAB23D5B8E7BD4FDD481 /* Pods-MPasswordTests-acknowledgements.plist */,
+				791D35000663E40655EDC0466B0514CC /* Pods-MPasswordTests-dummy.m */,
+				103865A45444C6C022E898F853D93BEF /* Pods-MPasswordTests-frameworks.sh */,
+				C071308A794E29DEFBB9811106347483 /* Pods-MPasswordTests-resources.sh */,
+				FB32806D95286B67A34F1D75768CC5C5 /* Pods-MPasswordTests-umbrella.h */,
+				98E4AF22E3B690E5F98F6912FDD78473 /* Pods-MPasswordTests.debug.xcconfig */,
+				FA6A01C568BDB0BEA1D5F7C91A9F426F /* Pods-MPasswordTests.release.xcconfig */,
+			);
+			name = "Pods-MPasswordTests";
+			path = "Target Support Files/Pods-MPasswordTests";
+			sourceTree = "<group>";
+		};
+		AB68F661F2B66B53E6DC14FB1472D561 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41D1D5DAB4FA31146B12FBC9AA13854E /* BmobSDK */,
+				D6D2099164A65610673CF029098B8066 /* SnapKit */,
+				59AE333BC8C811FB371816E56411B886 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0EA42048D4784096283374DBB4DE598 /* Pods-MPasswordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D47CBF7CBC227B2C1CBDDEA1D06E404D /* Info.plist */,
+				79AD0113EA729BA6F7103345903A1AF3 /* Pods-MPasswordUITests.modulemap */,
+				0047A6CE7635DBAF44EFA08A005FC66C /* Pods-MPasswordUITests-acknowledgements.markdown */,
+				8EEBD27AC6BB5CB488AC509AC1E8A425 /* Pods-MPasswordUITests-acknowledgements.plist */,
+				15026714BA0DA54D96B26415A4EDC791 /* Pods-MPasswordUITests-dummy.m */,
+				55C0BB41042F87B4202B6F7A20CB1F1D /* Pods-MPasswordUITests-frameworks.sh */,
+				07862B27E70DDB748BB407A7F4C5B79D /* Pods-MPasswordUITests-resources.sh */,
+				CC52F0324CC3930D868AD581DD4ADE1A /* Pods-MPasswordUITests-umbrella.h */,
+				6AB504885DAE0C24920FAAD2136D06C2 /* Pods-MPasswordUITests.debug.xcconfig */,
+				1FF09F06FA40BEDE8738598B5AF6786F /* Pods-MPasswordUITests.release.xcconfig */,
+			);
+			name = "Pods-MPasswordUITests";
+			path = "Target Support Files/Pods-MPasswordUITests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D6D2099164A65610673CF029098B8066 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				2FE26594794E4938D0F249A11109F0B4 /* Constraint.swift */,
+				C5C7F561F66329AE6208465893A5892D /* ConstraintAttributes.swift */,
+				0E24CE727641B7BAFF115D6B07302C70 /* ConstraintConfig.swift */,
+				32CD70505CCC2262D271335D02874E79 /* ConstraintConstantTarget.swift */,
+				CA1A798A22FAF9599861BCC886EF61D3 /* ConstraintDescription.swift */,
+				B4A3C9559B3C43F2658E4967B4E54BFF /* ConstraintDSL.swift */,
+				1B548F63B9D808586F845512AEB9701E /* ConstraintInsets.swift */,
+				4A58A45A22F50EB12852EBC498470675 /* ConstraintInsetTarget.swift */,
+				70D649A7221AA2B53CB4C367F3CA8B3F /* ConstraintItem.swift */,
+				588C54060EDDB73DF0549843D5179A32 /* ConstraintLayoutGuide.swift */,
+				68B1B2125E1F76E0C49180D5BEF1CF83 /* ConstraintLayoutGuide+Extensions.swift */,
+				768FEB611ED232E1C02E7BDBAB7FB9A7 /* ConstraintLayoutGuideDSL.swift */,
+				64FC1E0B7DE714FDD209CE4CE8B2B872 /* ConstraintLayoutSupport.swift */,
+				DC9361F44602DE82853B16BE542F975F /* ConstraintLayoutSupportDSL.swift */,
+				8BBBB4518BCE939D9891384CA4E983DF /* ConstraintMaker.swift */,
+				5DBBE5D926334CA0879AC6F476DB0F5B /* ConstraintMakerEditable.swift */,
+				693B150940474C3C901C8FC9079E662B /* ConstraintMakerExtendable.swift */,
+				D4E3B2F120908FF689E0DD70F40C3F40 /* ConstraintMakerFinalizable.swift */,
+				D389CF1DB1C0C6E10581852BC7CC5DF8 /* ConstraintMakerPriortizable.swift */,
+				9F053218A68696C0872D127176B4ED9B /* ConstraintMakerRelatable.swift */,
+				957E8083C3D785C788A0F2258DAE011F /* ConstraintMultiplierTarget.swift */,
+				FE7C75F7885206FC4A1E1EA5B276B6EA /* ConstraintOffsetTarget.swift */,
+				14C40DDF31D5FB580101980DF1546929 /* ConstraintPriority.swift */,
+				22997C9C086E8120523D1AFB3B94FE91 /* ConstraintPriorityTarget.swift */,
+				D73D53C4A0625142D46F9607E8C5FD6E /* ConstraintRelatableTarget.swift */,
+				F0D1D60AF953616FF1D27B66CD3A6796 /* ConstraintRelation.swift */,
+				EA8DC04E2424BDF277402D27DFBDA2E1 /* ConstraintView.swift */,
+				698081EAC64FE694FDC09305AFF90A43 /* ConstraintView+Extensions.swift */,
+				654735BCE1475C7584E90327EFF03C21 /* ConstraintViewDSL.swift */,
+				24BC399469F9DF06E43202D2DF21A469 /* Debugging.swift */,
+				9A44642F94920ECA727C47E0EACE394C /* LayoutConstraint.swift */,
+				755463D2EC2B51EF86283155662BD3B1 /* LayoutConstraintItem.swift */,
+				F32AA5B82EE5F9516834A2E5729D0EDE /* Typealiases.swift */,
+				BA5D1A8F7DF3C0AF163ABCE63AC41D21 /* UILayoutSupport+Extensions.swift */,
+				D880EDC9B16CC5D85CD0A9AE15A2B06D /* Support Files */,
+			);
+			name = SnapKit;
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		D880EDC9B16CC5D85CD0A9AE15A2B06D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6330E5CADC302F8A4912CCB55CAB90D /* Info.plist */,
+				36261ECEDFD57DA6E31324535BA2112E /* SnapKit.modulemap */,
+				DF1CC2B80B235AC1F8425F6A91B5099C /* SnapKit.xcconfig */,
+				97B71C86E989EFD5DBDA05EE5D40F1AF /* SnapKit-dummy.m */,
+				6D0923A400409C85718404C5A0E7AFC5 /* SnapKit-prefix.pch */,
+				ABBEF1A186F0AE2D80AC5BEB5C5D1A59 /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		FEA23EB6EF6949162C065E388C5D2D46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEE56F79D5A39648CD2963E185E8AF36 /* BmobSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		44F2EDF01859EE19DBDDFC389740DAF5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D883767D29686C7FA2662258B30E24D /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF3E8C08796807E49D5A1D027C23B58 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EB542E6781C4EFA651F6DF9B941C9F /* Pods-MPasswordUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58CDCFE93AAC8AF618668D9C019DAAB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D88B1728035C65684A8F7E4212FCF7F /* Pods-MPasswordTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A78FF02EDC0094EF7B3B21BE69A6602 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89047E9512DC7939C74FB56BE1EF1A26 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E99AEA2EA23DB155C37D75A6C6D628 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B5922A8CC9E1667AE3E022ADCE857F /* Pods-MPassword-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		47CB6D07A3A4053D342C6809B674C4BB /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86FEA93E9B8870656D4B9331C1782F48 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				DB484C78FCF9B81319ECFA726A0B9F47 /* Sources */,
+				83507986D0A47221617783F4303A2FB8 /* Frameworks */,
+				44F2EDF01859EE19DBDDFC389740DAF5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = 306F8EFA674B5FF263FCCD452AAC7080 /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4A2D08CE0CC859B8C4AAE3A4B2516F02 /* Pods-MPassword */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5298B8778B622410A8CC70812C24CAA /* Build configuration list for PBXNativeTarget "Pods-MPassword" */;
+			buildPhases = (
+				951C9C4B2A2F1D0098307DE82CF1D870 /* Sources */,
+				4F9C39CFCBD9BC7153FBCDF9112906F5 /* Frameworks */,
+				84E99AEA2EA23DB155C37D75A6C6D628 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				469F85788209A116E30ED50120B9B6C0 /* PBXTargetDependency */,
+				D43DDEE9BA1BF9E5A4CC3DFD69218FDA /* PBXTargetDependency */,
+			);
+			name = "Pods-MPassword";
+			productName = "Pods-MPassword";
+			productReference = 7A73BEBF79731B37CFA99ACB184EA461 /* Pods_MPassword.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		64ACA2DA9A90A78EDFA4914D6AE42D3F /* Pods-MPasswordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA343EE7DF110D3C2D300046F2134553 /* Build configuration list for PBXNativeTarget "Pods-MPasswordTests" */;
+			buildPhases = (
+				DF1FC11D133CC46A7A65BBD9E22830E5 /* Sources */,
+				E10010A4E5694B7D69B41C30CF3089FB /* Frameworks */,
+				58CDCFE93AAC8AF618668D9C019DAAB1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MPasswordTests";
+			productName = "Pods-MPasswordTests";
+			productReference = F386CEE9169FD9F0BAED3CE7ECE68A2C /* Pods_MPasswordTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4269F70F0B1C8A5D8211D13AF35CE05 /* Pods-MPasswordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE92C61D0211773EA43DC1B481F84B95 /* Build configuration list for PBXNativeTarget "Pods-MPasswordUITests" */;
+			buildPhases = (
+				1AB6005FF2C197CA5CF43FF6F5D6F2EB /* Sources */,
+				DEBA1794507274CF17774B0C4BC1C5DA /* Frameworks */,
+				4EF3E8C08796807E49D5A1D027C23B58 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MPasswordUITests";
+			productName = "Pods-MPasswordUITests";
+			productReference = 5CE965E29B109E9863DC76185637F50A /* Pods_MPasswordUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5FAE13383E422C33F15B82F2F6250CB /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC98CB0B3CC26C88FFD8FA99E5B36B0 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				D109488F37A25EEC53CB0C1C47C73E76 /* Sources */,
+				76C0F0C95452020904F80C4F5C1E96D7 /* Frameworks */,
+				6A78FF02EDC0094EF7B3B21BE69A6602 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = AA9CD021A59F5C4F8CAE706D219F3155 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3347A7FB67EC0A58A19253503F0EE3B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A2D08CE0CC859B8C4AAE3A4B2516F02 /* Pods-MPassword */,
+				64ACA2DA9A90A78EDFA4914D6AE42D3F /* Pods-MPasswordTests */,
+				C4269F70F0B1C8A5D8211D13AF35CE05 /* Pods-MPasswordUITests */,
+				47CB6D07A3A4053D342C6809B674C4BB /* SnapKit */,
+				C5FAE13383E422C33F15B82F2F6250CB /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AB6005FF2C197CA5CF43FF6F5D6F2EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7617B5183818C9D00AE17113A7FB3BA5 /* Pods-MPasswordUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951C9C4B2A2F1D0098307DE82CF1D870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848D9122AEC49D070DA4CCCD59076A89 /* Pods-MPassword-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D109488F37A25EEC53CB0C1C47C73E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A27830B0AA38210E2DA367227F32B9E /* SwiftyJSON-dummy.m in Sources */,
+				8FD36DE9D92B0BD9C4EE9BF2FED928B7 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB484C78FCF9B81319ECFA726A0B9F47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF7CC6AA74865BE0A16FF300BC9DC9D /* Constraint.swift in Sources */,
+				A332BB0B438F70ADAA969C3AFC173B71 /* ConstraintAttributes.swift in Sources */,
+				9FA84D97468875D487ED670250DCD6CE /* ConstraintConfig.swift in Sources */,
+				4512C3F4E8C9A29D00A1C75201F5EE92 /* ConstraintConstantTarget.swift in Sources */,
+				C35EB21247EE67C21B20AA5DC51DD8C7 /* ConstraintDescription.swift in Sources */,
+				B6E4F5DEE162A4FAE9704DE8ECA593D9 /* ConstraintDSL.swift in Sources */,
+				1FF82D89BBF4AB6C514B97A80CA34BC0 /* ConstraintInsets.swift in Sources */,
+				282D74FB2502038068591EDD0C7C0DC7 /* ConstraintInsetTarget.swift in Sources */,
+				2F15E775B9551ECDCE10B0528506E4AC /* ConstraintItem.swift in Sources */,
+				1BED1F5DCB82E30923A2BBE3A6DC3177 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				3888D65ED9271DCC186BAE3F2745E5DD /* ConstraintLayoutGuide.swift in Sources */,
+				5BD529294F53591C782DF3FA4493C0DC /* ConstraintLayoutGuideDSL.swift in Sources */,
+				2E8CCFF59CF5503AE920290E5AB53B4D /* ConstraintLayoutSupport.swift in Sources */,
+				35D823A04DED6F7962591CCAC8BDB64F /* ConstraintLayoutSupportDSL.swift in Sources */,
+				29FBAAA0758D7C5C6386B909AF6DE05F /* ConstraintMaker.swift in Sources */,
+				223235C8CD481AD53A43F8971F5E8E96 /* ConstraintMakerEditable.swift in Sources */,
+				DF4A71B29466C897B3AF8CEB427FB1C7 /* ConstraintMakerExtendable.swift in Sources */,
+				1F68B889A1192298098383B9AE993CD5 /* ConstraintMakerFinalizable.swift in Sources */,
+				1F25548C6D461C5A3C6E5F002A28870A /* ConstraintMakerPriortizable.swift in Sources */,
+				1A2ADBF38EB4ACF6DC0C1ADC62543125 /* ConstraintMakerRelatable.swift in Sources */,
+				C527073F291979010F01712E27F68605 /* ConstraintMultiplierTarget.swift in Sources */,
+				8B4D488BC7D5CCD3A740676405356201 /* ConstraintOffsetTarget.swift in Sources */,
+				3F2C3E97E56B77C0C5CBC2FE6C6C10CF /* ConstraintPriority.swift in Sources */,
+				F07C0AA06786952443795ED795E6D5B2 /* ConstraintPriorityTarget.swift in Sources */,
+				D779E9417B8591AA18477C4A7E4ACD3D /* ConstraintRelatableTarget.swift in Sources */,
+				A4C386DD76FD65A241675EB17F1F60D1 /* ConstraintRelation.swift in Sources */,
+				1455072F334A58BB88861C0790FF3B2D /* ConstraintView+Extensions.swift in Sources */,
+				2054B1D4F634E0C119AF79BF9F22DAEC /* ConstraintView.swift in Sources */,
+				7495A252E32FE61FE4E08234771F9AFD /* ConstraintViewDSL.swift in Sources */,
+				2BE7F8189F0D1744E3B7E3C2A67582F2 /* Debugging.swift in Sources */,
+				1738FB18126162C0DC6D922570E52567 /* LayoutConstraint.swift in Sources */,
+				69713780710827149E07D300FCCBC5D0 /* LayoutConstraintItem.swift in Sources */,
+				C64332108C41E4ADD6B95EA60A6424BA /* SnapKit-dummy.m in Sources */,
+				4920466EE3346D0CB427470B54B039F9 /* Typealiases.swift in Sources */,
+				51B3F3A738464FBFF4CDFFD5D842DE5A /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1FC11D133CC46A7A65BBD9E22830E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B1A209FA448AFE6210121601BC8EB3 /* Pods-MPasswordTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		469F85788209A116E30ED50120B9B6C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 47CB6D07A3A4053D342C6809B674C4BB /* SnapKit */;
+			targetProxy = 89719DED7B0C66A4DD129A738B1E46FD /* PBXContainerItemProxy */;
+		};
+		D43DDEE9BA1BF9E5A4CC3DFD69218FDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = C5FAE13383E422C33F15B82F2F6250CB /* SwiftyJSON */;
+			targetProxy = 8C63CBA6F2200B5759EA64649A174FE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B31F89460E22CE9CF59783E78C40FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FF09F06FA40BEDE8738598B5AF6786F /* Pods-MPasswordUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MPasswordUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MPasswordUITests/Pods-MPasswordUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MPasswordUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		51BEE3062C277F7EF2B1C82ACD617873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AB504885DAE0C24920FAAD2136D06C2 /* Pods-MPasswordUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MPasswordUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MPasswordUITests/Pods-MPasswordUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MPasswordUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		577B92463574C6E478AABF3896D7960E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBB52F75422910D3C54DD05E169B4295 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C70205642213A9FB7949DDC61AEFAA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF1CC2B80B235AC1F8425F6A91B5099C /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		62C19F54A393CE4D166B470B007DD002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA6A01C568BDB0BEA1D5F7C91A9F426F /* Pods-MPasswordTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MPasswordTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MPasswordTests/Pods-MPasswordTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MPasswordTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6750DDADC4992B3F6019BEA114BB63D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF1CC2B80B235AC1F8425F6A91B5099C /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C8F9685D07B4DE24CF08B9FC2F7DC3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86CADFF18A33561090F3DFB23F1E61EE /* Pods-MPassword.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MPassword/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MPassword/Pods-MPassword.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MPassword;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97803B46811A9BDB5E70FA1303AFBFFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A4EEE60811CF15D621C92904E1642321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBB52F75422910D3C54DD05E169B4295 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B31B579A60F1F63A66FAC1DFE20043AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98E4AF22E3B690E5F98F6912FDD78473 /* Pods-MPasswordTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MPasswordTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MPasswordTests/Pods-MPasswordTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MPasswordTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9C6C92C8988C4C778623D652B6FD104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFBF0DE0FE4C4A5A3FB5546FE0D505A0 /* Pods-MPassword.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MPassword/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MPassword/Pods-MPassword.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MPassword;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97803B46811A9BDB5E70FA1303AFBFFE /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AC98CB0B3CC26C88FFD8FA99E5B36B0 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577B92463574C6E478AABF3896D7960E /* Debug */,
+				A4EEE60811CF15D621C92904E1642321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86FEA93E9B8870656D4B9331C1782F48 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C70205642213A9FB7949DDC61AEFAA0 /* Debug */,
+				6750DDADC4992B3F6019BEA114BB63D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA343EE7DF110D3C2D300046F2134553 /* Build configuration list for PBXNativeTarget "Pods-MPasswordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31B579A60F1F63A66FAC1DFE20043AC /* Debug */,
+				62C19F54A393CE4D166B470B007DD002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE92C61D0211773EA43DC1B481F84B95 /* Build configuration list for PBXNativeTarget "Pods-MPasswordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51BEE3062C277F7EF2B1C82ACD617873 /* Debug */,
+				3B31F89460E22CE9CF59783E78C40FF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5298B8778B622410A8CC70812C24CAA /* Build configuration list for PBXNativeTarget "Pods-MPassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C8F9685D07B4DE24CF08B9FC2F7DC3F /* Debug */,
+				F9C6C92C8988C4C778623D652B6FD104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
